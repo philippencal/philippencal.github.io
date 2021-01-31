@@ -1,0 +1,32 @@
+.profile {
+    margin-top: -50%;
+    border: 5px solid var(--primary);
+}
+
+.section-profile {
+    margin-top: -10%;
+}
+
+.no-underline:hover {
+    text-decoration: none;
+  }
+
+.about-background {
+    max-height: 300px;
+}
+
+.text-break-word { 
+    word-wrap: break-word; 
+}
+
+.platform-card-title {
+    min-height: 75px;
+}
+
+.platform-card-text {
+    min-height: 90px;
+}
+
+.menu-link {
+    cursor: pointer;
+}

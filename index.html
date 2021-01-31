@@ -1,0 +1,601 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Philip Pencal</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css">
+    <link rel="stylesheet" href="./css/pencal.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css">
+
+</head>
+
+<body class="bg-white">
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm p-2 px-md-4">
+        <div class="navbar-brand text-primary">
+            <code class="h2 text-secondary"><</code>
+            <b class="h2 text-white">Philip Pencal</b>
+            <code class="h2 text-secondary"> /></code>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-primary"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto my-2 my-md-0 mr-md-3">
+                <li class="nav-item text-center">
+                    <a id="profileLink" class="nav-link h5 mt-1 menu-link text-secondary"
+                        onclick="smoothTo('body')">Profile</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a id="aboutLink" class="nav-link h5 mt-1 menu-link text-white"
+                        onclick="smoothTo('#aboutSection')">About</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a id="contactLink" class="nav-link h5 mt-1 menu-link text-white"
+                        onclick="smoothTo('#contactSection')">Contact</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link h5 mt-1 menu-link text-white" href="https://medium.com/@philip-pencal"
+                        target="_blank">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-secondary btn-block btn-lg ml-lg-4" type="button" 
+                    href="./docs/ResumePhilipPencal.pdf" target="_blank">
+                        <i class="fas fa-download"></i>
+                        Resume
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile -->
+    <div id="profileSection" class="container mt-sm-0 pt-0 pt-sm-0 pt-lg-1">
+        <div class="row justify-content-center">
+            <img src="./images/background.svg" class="img-fluid rounded" style="width: 100%; height: auto;">
+        </div>
+    </div>
+
+    <div class="container mt-sm-0">
+        <div class="row section-profile">
+
+            <div class="mt-2">
+                <section class="jumbotron text-center bg-panel shadow-lg rounded pt-3 pb-3 mb-0">
+
+                    <div class="row no-gutters">
+                        <div
+                            class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-2 offset-2 offset-sm-3 offset-md-4 offset-lg-4 offset-xl-5">
+                            <img src="./images/profile.jpg" class="img-fluid rounded-circle mx-auto d-block profile">
+                        </div>
+                    </div>
+
+                    <div class="container-fluid">
+                        <h1 class="jumbotron-heading text-secondary mt-4 font-weight-bold">Hi, I'm Philip</h1>
+
+                        <div class="row text-left mt-4">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                                <h2 class="text-white">A Software Engineer</h2>
+                                <p class="text-gray">I have several years of experience building software with quality
+                                    and passion.
+                                    Participating actively since the prototyping until the last delivery.</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                                <h2 class="text-white">A Tech Lover</h2>
+                                <p class="text-gray">I use the most part of my free time to study and test new
+                                    technologies. Also checking
+                                    the news from tech world.</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                                <h2 class="text-white">A .NET Expert</h2>
+                                <p class="text-gray">I've been working with Microsoft technologies since 2010 when I
+                                    started my career, I
+                                    can say C# is almost my native language.</p>
+                            </div>
+                            <div
+                                class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-12 mt-3 mb-3 my-md-auto mt-xl-2 mb-xl-2">
+                                <div class="text-center">
+                                    <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/philip-pencal/"
+                                        target="_blank" role="button">
+                                        <i class="fab fa-linkedin"></i>
+                                        LinkedIn
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Projects Info -->
+    <div id="aboutSection" class="container mt-5 mb-4" data-aos="fade-up">
+        <div class="row">
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pr-0 pl-0">
+
+                <div class="row mt-5 mb-5">
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <section class="text-center mr-2">
+                            <div class="row">
+
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-5 mb-xl-0">
+                                    <i class="fas fa-tasks fa-2x text-primary"></i>
+                                    <div class="text-dark display-3 count" data-stop="39">
+                                        39
+                                    </div>
+
+                                    <div class="jumbotron-heading text-secondary h3">
+                                        Professional Projects
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-5 mb-xl-0">
+                                    <i class="fas fa-award fa-2x text-primary"></i>
+                                    <div class="text-dark display-3 count" data-stop="04">
+                                        04
+                                    </div>
+
+                                    <div class="jumbotron-heading text-secondary h3">
+                                        Honors & Awards
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-5 mb-md-0">
+                                    <i class="fas fa-business-time fa-2x text-primary"></i>
+                                    <div class="text-dark display-3 count" data-stop="10">
+                                        10
+                                    </div>
+
+                                    <div class="jumbotron-heading text-secondary h3">
+                                        Years of Experience
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                                    <i class="fas fa-hands-helping fa-2x text-primary"></i>
+                                    <div class="text-dark display-3 count" data-stop="08">
+                                        08
+                                    </div>
+
+                                    <div class="jumbotron-heading text-secondary h3">
+                                        Companies
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- About Me Info -->
+    <div class="container mt-0 mb-5" data-aos="fade-up">
+        <div class="row no-gutters">
+
+            <div class="col-12 mt-2">
+                <section class="mr-2 ml-2 rounded pt-3 pb-3 mb-0">
+
+                    <div class="row">
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mx-auto my-auto">
+                            <h2 class="text-primary">About Me</h2>
+                            <p>I’m a brazilian software engineer who spend the whole day, practically every day, working
+                                with .NET technologies, experimenting with HTML, CSS, and JavaScript; dabbling with
+                                React and Node.js; and trying to collect potentially usefull information through a few
+                                hundred of tech web sites.</p>
+                            <p>I build softwares and systems used in diverse companies. I love do it well. I’m curious,
+                                and I enjoy work that challenges me to learn something new and stretch in a different
+                                direction. I do my best to stay on top of changes in the state of the art so that I can
+                                meet challenges with tools well suited to the job at hand.</p>
+                            <p>The list of projects I follow on GitHub will give you a good idea of the types of
+                                technologies I prefer to be using. I also love to read technicals books, the Robert
+                                Cecil Martin books are my favorite ones.</p>
+                            <div class="text-center">
+                                <a class="btn btn-primary text-white btn-lg mt-2" role="button" data-toggle="modal"
+                                    data-target="#professionalBioModal"><i class="fas fa-briefcase"></i> Professional
+                                    Bio</a>
+                                <a class="btn btn-secondary text-white btn-lg mt-2" role="button" data-toggle="modal"
+                                    data-target="#personalBioModal"><i class="far fa-smile"></i> Personal Bio</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mx-auto my-auto">
+                            <img src="./images/about.svg" class="img-fluid mx-auto d-block rounded mt-5 mt-lg-0">
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Resume Info -->
+    <div class="container mb-5 container jumbotron bg-white shadow-lg" data-aos="fade-up">
+        <div>
+            <h2 class="text-primary">Resume</h2>
+            <p>I am an enthusiastic Software Engineer with more than ten years working in diverse industries like oil,
+                human resources, logistics, fashion, digital marketing, and finance institutions.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="text-secondary">Relevant Technologies Skills</h3>
+                <div class="pb-0">
+                    <p>Skilled in ASP.NET MVC, C#, SQL, and more. Strong engineer professional with a Bachelor's degree
+                        focused on Systems Analysis and Development and a specialization degree in Agile Software
+                        Engineer.</p>
+                    <p>I started my career as a .NET Developer Trainee developing mains business portals, using ASP.NET
+                        Web Forms and C#. I currently work in Scrum teams, but I have experience and have worked with
+                        more traditional models. I have already used project management tools and repositories such as
+                        Azure DevOps, Jira, SVN, GIT (Bitbucket, GitLab and Github).</p>
+                    <p>I understand the business strategy and requirements. I work with stakeholders across the business
+                        to deliver user stories, functional specifications, conceptual data, and collaborate with other
+                        developers to make sure that the deliverables are of high quality.</p>
+                    <p>I consider myself an ambitious professional, always looking for new projects, challenges, and a
+                        constant increase of my knowledge to better perform my job and deliver quality products.</p>
+                    <ul class="text-gray">
+                        <li>Able to work with .NET Framework and .NET Core</li>
+                        <li>ASP.NET MVC / ASP.NET WebForms / Blazor</li>
+                        <li>C# / VB / Node.JS / PHP / Python</li>
+                        <li>Angular.js / Angular 2+ / React + Redux / jQuery</li>
+                        <li>HTML / CSS / Javascript / Typescript</li>
+                        <li>Microsoft SQL Server / Oracle / MySQL / PostgreSQL</li>
+                        <li>Cosmos DB / Document DB / MongoDB / Cassandra</li>
+                        <li>zure VMs / Azure Storage / Azure Service Bus / Azure Functions</li>
+                        <li>RabbitMQ / Apache Kafka / Redis Cache / CouchBase / ElasticSearch</li>
+                        <li>WCF / WPF</li>
+                    </ul>
+                </div>
+
+                <h3 class="text-secondary">Education</h3>
+                <div>
+                    <h4>Post-graduation Agile Software Engineering</h4>
+                    <h5>2015 - 2016</h5>
+                    <p><em>Positivo University, Curitiba, BR</em></p>
+                    <p class="text-gray">A post-graduation focused on agile development, rich in innovative content such
+                        as entrepreneurship classes, SCRUM, startups business, software quality, management 4.0, test
+                        automation, business process management, agile development, advanced development topics, and
+                        design patterns.</p>
+                </div>
+                <div>
+                    <h4>Bachelor of System Analysis and Development</h4>
+                    <h5>2011 - 2013</h5>
+                    <p><em>SPEI Institute of Technology, Curitiba, BR</em></p>
+                    <p class="text-gray">Well qualified graduation with concept 4 in the MEC (Brazilian Ministry of
+                        Education), excellent teachers and good didactics in class. I had the pleasure of learning the
+                        basis for the job market and some advanced concepts in Java, PHP and mobile development
+                        (Android).</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="text-secondary">Recent Professional Experience</h3>
+                <div>
+                    <h4>Software Engineer</h4>
+                    <h5>Sep 2019 - Present</h5>
+                    <p><em>AlterDomus, Luxembourg, LU </em></p>
+                    <ul class="text-gray">
+                        <li>As a senior officer, I am involved in several projects as part of a global team, with
+                            members from Europe, the United States, and China.</li>
+                        <li>Develop cloud-based applications using azure functions, storage, and queues.</li>
+                        <li>Implementation of web interfaces that adjust to the needs of the company.</li>
+                        <li>Build APIs with high quality following the recommended design patterns and industry
+                            standards.</li>
+                        <li>Ensure the software release packages are according to the company requirements and also
+                            provide all documentation and procedures as part of our "definition of done" process.</li>
+                        <li>Collect requirements with stakeholders, page prototype, design workflows.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Software Engineer</h4>
+                    <h5>Apr 2019 - Sep 2019</h5>
+                    <p><em>Farfetch, Porto, PT</em></p>
+                    <ul class="text-gray">
+                        <li>As a senior professional, my duties include junior developers training.</li>
+                        <li>Presenting the team development progress to managers and other team leaders.</li>
+                        <li>Develop microservices with high quality with integrated tests and following the recommended
+                            design patterns according to the company technical requirements.</li>
+                        <li>Conduct code reviews for each merge request received which is related to my team projects.
+                        </li>
+                        <li>Dealing and solving complex environment problems on a large and distributed applications and
+                            services layer.</li>
+                        <li>Ensure the software release packages are according to the company requirements and been
+                            developed following the agile methodology selected by the team.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Software Engineer</h4>
+                    <h5>jun 2017 - mar 2019</h5>
+                    <p><em>DoGood Media LLC, Curitiba, BR</em></p>
+                    <ul class="text-gray">
+                        <li>Developing and maintaining features for DoGood Media products and brands.</li>
+                        <li>Working in a remote environment with an international team from Brazil, India and United
+                            States.</li>
+                        <li>Identification and resolution of bugs in production and development environments, generating
+                            Hotfix packages.</li>
+                        <li>Responsible of developing responsive web applications.</li>
+                        <li>Work with Scrum and VSO environment for DevOps.</li>
+                        <li>Responsible for blockchain projects on the company.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dev Platforms Info -->
+    <div class="container mb-2" data-aos="fade-up">
+        <div class="row">
+
+            <!--Info Cards-->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pl-0 pr-0">
+
+                <div class="row no-gutters">
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-2 mb-xl-0">
+                        <section class="jumbotron text-center bg-panel shadow-lg mr-2 ml-2 mb-2 pb-4 h-100">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <h1 class="jumbotron-heading text-white platform-card-title">
+                                        <i class="fab fa-github text-primary"></i>
+                                        GitHub
+                                    </h1>
+                                    <p class="lead text-left text-gray platform-card-text">This is my updated data from
+                                        public
+                                        repositories,
+                                        check what projects I've been working on.</p>
+
+                                    <a class="btn btn-secondary btn-block mt-2 btn-lg" role="button"
+                                        href="https://github.com/philippencal" target="_blank"><i
+                                            class="fab fa-github-alt"></i> GitHub</a>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-2 mb-xl-0">
+                        <section class="jumbotron text-center bg-panel shadow-lg mr-2 ml-2 pb-4 h-100">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <h1 class="jumbotron-heading text-white platform-card-title">
+                                        <i class="fab fa-stack-overflow text-primary"></i>
+                                        Stack Overflow
+                                    </h1>
+                                    <p class="lead text-left text-gray platform-card-text">My public profile with so
+                                        many programming
+                                        questions
+                                        and answers.</p>
+
+                                    <a class="btn btn-secondary btn-block mt-2 btn-lg" role="button"
+                                        href="https://stackoverflow.com/users/5323337/philip-gon%c3%a7alves-pencal"
+                                        target="_blank">
+                                        <i class="fab fa-stack-overflow"></i>
+                                        Stack Overflow</a>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                        <section class="jumbotron text-center bg-panel shadow-lg mr-2 ml-2 mb-2 pb-4 h-100">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <h1 class="jumbotron-heading text-white platform-card-title">
+                                        <i class="fab fa-hackerrank text-primary"></i>
+                                        HackerRank
+                                    </h1>
+                                    <p class="lead text-left text-gray platform-card-text">The code kata platform that I
+                                        use and love,
+                                        check my numbers on challenges.</p>
+
+                                    <a class="btn btn-secondary btn-block mt-2 btn-lg" role="button"
+                                        href="https://www.hackerrank.com/gpencal" target="_blank"><i
+                                            class="fab fa-hackerrank"></i>
+                                        HackerRank</a>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Message Me -->
+    <div id="contactSection" class="container mb-2" data-aos="fade-up">
+        <div class="row no-gutters">
+
+            <div class="col-12 mt-2">
+                <section class="text-center mr-2 ml-2 rounded pt-3 pb-3 mb-0">
+
+                    <div class="row">
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-2 mb-lg-0">
+                            <img src="./images/contact.svg" class="img-fluid mx-auto d-block rounded">
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mx-auto my-auto">
+                            <h2>Feel free to contact me</h2>
+                            <p>I usually take a look at my LinkedIn after work, send me a message and I'm going to
+                                answer you as soon I can.</p>
+
+                            <a class="btn btn-secondary text-white btn-lg mt-2" href="https://www.linkedin.com/in/philip-pencal/" target="_blank" role="button">
+                                <i class="fab fa-linkedin"></i>
+                                Message
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link h5 mb-0 text-white" href="mailto:gpencal@hotmail.com"><i class="fas fa-envelope text-white"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link h5 mb-0 text-white" href="skype:gpencal?userinfo"><i class="fab fa-skype text-white"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link h5 mb-0 text-white" href="https://twitter.com/philippencal" target="_blank"><i class="fab fa-twitter text-white"></i></a>
+            </li>
+        </ul>
+
+        <a class="navbar-brand text-white" href="https://github.com/" target="_blank"><i class="fab fa-github text-secondary"></i> Hosted By GitHub</a>
+    </nav>
+
+    <!-- Modal Professional Bio -->
+    <div class="modal fade" id="professionalBioModal" tabindex="-1" aria-labelledby="professionalBioModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary" id="professionalBioModalLabel">Professional Biography</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        At the moment, I’m a senior engineer at AlterDomus in Luxembourg, Europe.
+                        But my career started so far away from here, in the agitated city of Curitiba in
+                        Brazil, where I also born and grow up. In September 2010, still in high school, I
+                        was looking for an internship and I got the opportunity to work in a tech startup
+                        who is responsible for the truck sellers' digital market. I worked there for almost
+                        a year where I deeped in the tech world, programming languages, and web concepts. I
+                        remember at that time I didn't realize how to dealing with the huge and massive
+                        study content to reach my personal goal, become a computer programming.
+                    </p>
+                    <p>
+                        Since that time, I never stopped to study, five hours week at least. I started to
+                        feel that sensation of thirst for knowledge and I realized I needed to worked in a
+                        big company to improve my skills. This thirst moved me to one of the biggest HR
+                        companies in Brazil, were four good years with many projects, challenges, knowledge
+                        acquired. I still remember the happy feeling just after solved a critical bug or
+                        completing to building a complex algorithm and see it works and brings benefits to
+                        the systems and their users. That's really amazing.
+                    </p>
+                    <p>
+                        After four long years, I decided to put my career on an international road. I moved
+                        to a new company with new challenges, technologies, and the possibility to start to
+                        see the English language on the systems. I know it can be little strange, but it
+                        made all difference to me. In Brazil, we have not a good basic education on public
+                        schools and you must learn English by yourself if you want to reach an acceptable
+                        English level. Anyway, after a long year working with complex port systems, I
+                        received an invitation to participate in a hiring processing for a developer
+                        position in one of the most valuable and rich oil companies in the world.
+                    </p>
+                    <p>
+                        It's definitely was a game changer in my career, I started to work with teams in
+                        different parts of the world, start to understand how big corporations work, the
+                        timezones, cultures, rules and process for everything. I really enjoyed to worked
+                        there, besides increasing my programming skills, I also improved my English and made
+                        good friends. At that time I worked in all types of company, startups, familiar,
+                        medium, large and global companies. But I had never worked inside of a foreign team
+                        before. So I decided to try, It was one of the most difficult decisions that I ever
+                        made, I was quitting a dream job in a big and awarded company with a possibility to
+                        make a brilliant career there.
+                    </p>
+                    <p>
+                        After my decision, I started to work at home for an American digital marketing
+                        company. Where I had the biggest technical progression in my career until now, I was
+                        deeply involved in new technologies, the blockchain was just a "complex word" when
+                        we start to implement a token in a company business model, here I became blockchain
+                        expert. I also learned some data science concepts with my high skilled coworkers,
+                        It's definitely changed my vision about software architecture. At the beginning of
+                        2019 I decided to reach one of my most ambitious goals, live and work abroad.
+                    </p>
+                    <p>
+                        I moved to Porto, the most beautiful city in Portugal (from my point of view, of course) to
+                        work as a software engineer at a renowned technology startup. I had the pleasure of growing
+                        as a professional and meeting wonderful people along the way. After some time I moved to
+                        Luxembourg where I work since then I usually say god has strange ways to put you in the right
+                        path, I think my entire career can be summed up in this sentence.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Personal Bio -->
+    <div class="modal fade" id="personalBioModal" tabindex="-1" aria-labelledby="personalBioModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary" id="personalBioModalLabel">Personal Biography</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        I was born in 1991 in Curitiba, Brazil. The capital of the state of Parana, I grew
+                        up doing what every kid and teenage does, I played a lot of video games and as a
+                        good Brazilian, I also played soccer while studying in a public high school. At the
+                        end of high school, I met my true love and with that, I changed my concept of life
+                        (Oh yes, so early). I started to create goals lists and planning how I could reach
+                        each one of them.
+                    </p>
+                    <p>
+                        I adopted a dog (one of my passions), got a degree and then a specialization degree
+                        in software engineer, I married, started to get interested for finances market as a
+                        hobby, data science became fascinating to me. I usually spend some time of my free
+                        time studying it.
+                    </p>
+                    <p>
+                        With my career was progressing we decided to left Curitiba, where It was my home for
+                        over 27 years. I'm still fanatic for soccer, Netflix and sometimes I still play
+                        video games, some things never change. Now I'm a married man with no children (for
+                        now) living in a different country, with a different culture, with 9.983 km between
+                        me and my relatives. This can be scared sometimes, but I'm really proud of my
+                        trajectory until here. Who knows what the destiny reserve for us, destiny is all.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./javascript/custom.js"></script>
+</body>
+
+</html>
